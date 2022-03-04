@@ -1,0 +1,297 @@
+	html#Main{
+		background-image:url(https://unsplash.com/photos/WYkl8rqaVUQ/download?force=true&w=2400);
+		background-attachment:scroll;
+		background-color:#192425;
+		background-position:center;
+		background-repeat:no-repeat;}
+
+	html#FORM{
+	    background-color:#041937 ;}
+
+	body{
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;}
+
+	hr#Banner{
+		width:100%;
+		border-color:white;
+	}
+
+	.card hr{
+		border: 0;
+		height: 3.5px;
+		width:70%;
+		border-radius:100%;
+		background:skyblue;
+		background-image: -webkit-linear-gradient(right,rgba(148, 164, 180, 0.75),skyblue,rgba(148, 164, 180, 0.75));
+		background-image: -moz-linear-gradient(right,rgba(148, 164, 180, 0.75),skyblue, rgba(148, 164, 180, 0.75));
+		background-image: -ms-linear-gradient(right, rgba(148, 164, 180, 0.75),skyblue,rgba(148, 164, 180, 0.75));
+		background-image: -o-linear-gradient(right,rgba(148, 164, 180, 0.75),skyblue, rgba(148, 164, 180, 0.75));
+
+	}
+
+	.card{ 
+		box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: rgba(74, 53, 39, 0.75);;
+        margin:0 15% 0 15%;
+    	text-align:left;
+    	padding: 15px 25px;
+        font-family: 'Raleway', sans-serif;
+        font-size:120%;}
+	.Formcard{ 
+		box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		background-color:#c8e6f8;
+        margin:5% 25% 5% 25%;
+    	text-align:left;
+    	padding: 15px 25px;
+        font-family: 'Raleway', sans-serif;
+        font-size:120%;}
+
+/* Banner + Navigation Bar Styling */
+	.Banner{
+		width:100%;
+		background-color: rgba(74, 53, 39, 0.75);}
+
+	ul#NavBarList{
+		list-style-type:none;
+		list-style:none;
+		font-size:120%;
+		text-align:top;
+}
+
+	ul#NavBarList li {
+		display:inline;}
+
+	a.NavBarLink:link, a.NavBarLink:visited{
+		background-color:transparent;
+		text-decoration:none;
+		margin-left:25px;
+		margin-right:60px;
+		text-align:center;
+		font-family: 'Raleway', sans-serif;
+		color:#f7e3c5;}
+
+	a.NavBarLink:hover, a.NavBarLink:active , .dropdown:hover a:hover{
+		text-decoration:underline;
+		text-decoration-color:skyblue;}
+
+    /* Drop-down Menus Styling */
+    span{
+		background-color:transparent;
+		text-decoration:none;
+		padding:28px 20px;
+		text-align:center;
+		font-family: 'Raleway', sans-serif;
+		color:#f7e3c5;}
+
+	.dropdown{
+		position: relative;
+		display: inline-block;}
+
+	.dropdown-content{
+		display: none;
+		position:absolute;
+		background-color:#7A522F;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		padding: 12px 16px;
+	    font-size:90%;
+	    margin-left:50px;}
+
+	.dropdown:hover .dropdown-content{
+	  	display: block;}
+
+	.dropdown-content a{
+		display:block;
+		background-color:transparent;
+		text-decoration:none;
+		text-align:center;
+		font-family: 'Raleway', sans-serif;
+		color:#f7e3c5;}
+
+
+/* Images Styling */
+	img#SiteLogo{
+		width:20%;}
+	img#NextToParagraph{
+		width:300px;
+		display:inline;
+		float:right;}
+	img#UnderParagraph{
+		display:block;
+		width:550px;
+		margin-left:25%;
+		margin-right:25%;}
+
+
+/* Videos Styling */
+	iframe{
+		border-radius: 38px;
+		box-shadow:  14px 14px 100px #161913, 
+             -14px -14px 100px #2a2f25;
+        width:50%;
+		margin-left:25%;
+		margin-right:25%;}
+	video{
+		width:100%;
+		box-shadow:  14px 14px 100px #161913, 
+             -14px -14px 100px #2a2f25;
+	}
+
+
+/* Paragraphs Styling */
+	p{	display:inline;
+		line-height:30px;
+		font-family: 'Raleway', sans-serif;
+		color:#f7e3c5;
+		text-align:justify;
+		word-wrap:break-word;}
+	p a{
+		text-decoration-color:#FFD091;
+		font-family: 'Raleway', sans-serif;
+		color:#f7e3c5;}
+	p a:hover, p a:active{
+		text-decoration:underline;
+		text-decoration-color:#D68881;}
+
+
+/* Site Lists Styling */
+	ol#StepsText li {
+		color:#FBDFAD;}
+
+
+/* Site Text Formatting */
+	.heading h1,h2,h3,h4{
+		font-weight:900;
+		color:#FFEDD3;}
+	b#Steps{
+		font-weight:900;
+		color:#FFEDD3;}
+
+/* Table */
+	table{
+    	display: table;
+  		background-color:rgba(255, 255, 255, 0.2);
+		border-collapse:collapse;
+    	border: 2px solid black;
+		padding:8px;
+    	font-family: 'Raleway', sans-serif;
+    	font-size:90%;
+    	color:#f7e3c5;}
+    table caption{
+    	font-family: 'Raleway', sans-serif;
+    	font-size:90%;
+		color:#f7e3c5;
+		margin-bottom:10px;}
+	th{
+		border: 2px solid black;
+		text-align:center;
+		padding:5px;}
+	tr, td {
+		border: 2px solid black;
+		padding:8px;
+		text-align:justify;
+		word-wrap:break-word}
+
+
+/* Form */
+.login-form {
+  padding: 15px;
+  box-sizing: border-box;}
+
+
+/* Inputs */
+.login-input {
+  position: relative;
+  width: 100%;
+  padding: 10px 5px;
+  margin: 0 0 25px 0;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  background: transparent;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color:#041937;
+  opacity: 1;
+  animation: input_opacity 0.8s cubic-bezier(.55, 0, .1, 1);
+  transition: border-bottom 0.2s cubic-bezier(.55, 0, .1, 1);
+}
+
+.login-input:focus {
+  outline: none;
+  border-bottom: 2px solid #7CA0C0;
+}
+.login-button {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background: transparent;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color:#041937;
+  cursor: pointer;
+  opacity: 1;
+  animation: input_opacity 0.8s cubic-bezier(.55, 0, .1, 1);
+  transition: background 0.2s ease-in-out;
+}
+
+.login-button.raised {
+  padding: 5px 10px;
+  color: #FAFAFA;
+  background: #E37F00;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.137255),
+              0px 1px 5px 0px rgba(0, 0, 0, 0.117647),
+              0px 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.login-button:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.login-button.raised:hover {
+  background: #FDAB43;
+}
+
+
+/* Footer Styling */
+	.Footer{
+		width:100%;
+		background-color: rgba(74, 53, 39, 0.75);
+		padding:15px;
+		font-size:100%;
+		text-align:center;
+		font-family: 'Raleway', sans-serif;
+		color:#f7e3c5;}
+
+	ul#CreditsList{
+		list-style-type:none;
+		list-style:none;}
+
+	ul#CreditsList li {
+		display:inline;
+		font-size:100%;
+		text-align:center;
+		font-family: 'Raleway', sans-serif;
+		color:#f7e3c5;}
+
+	a.Credits:link, a.Credits:visited{
+		background-color:transparent;
+		text-decoration:none;
+		padding:14px 25px;
+		text-align:center;
+		font-family: 'Raleway', sans-serif;
+		color:#f7e3c5;}
+
+	a.Credits:hover, a.Credits:active{
+		text-decoration:underline;
+		text-decoration-color:#485C74;}
+
+		
+/*
+Info:
+Logo colors : Background Square - #96633C
+              Font Color - #F8D6B2
+*/
